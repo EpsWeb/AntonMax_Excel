@@ -1,0 +1,44 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "Excel pure JS course",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server --open",
+    "build": "cross-env NODE_ENV=production webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpsWeb/AntonMax_Excel.git"
+  },
+  "keywords": [
+    "js",
+    "excel"
+  ],
+  "author": "Daniel Apple",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EpsWeb/AntonMax_Excel/issues"
+  },
+  "homepage": "https://github.com/EpsWeb/AntonMax_Excel#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.6",
+    "@babel/preset-env": "^7.22.6",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.8.1",
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-loader": "^4.0.2",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
