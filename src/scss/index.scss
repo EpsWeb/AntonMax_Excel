@@ -1,6 +1,25 @@
-$red: red;
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,100;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@1,300&display=swap");
+@import "~normalize.css";
 
-body {
-  background-color: $red;
+@import "header.scss";
+@import "toolbar.scss";
+@import "formula.scss";
+@import "table.scss";
+@import "dashboard.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.excel {
+  position: relative;
+  color: #888;
+  font-size: .8rem;
+}
